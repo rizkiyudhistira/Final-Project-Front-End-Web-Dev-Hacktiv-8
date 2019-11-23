@@ -1,0 +1,191 @@
+
+        .header-nav {
+            padding: 7px;
+            border-bottom: solid #f1f1f1 2px;
+            font-size: 17px;
+            font-weight: 400;
+        }
+
+        .header-top {
+            padding: 20px;
+        }
+
+        .nv-br {
+            padding: 5px;
+            margin-top: none;
+            font-size: 20px;
+        }
+
+        .dropnav {
+            padding: 16px;
+            font-size: 18px;
+            border: none;
+            font-weight: 350;
+        }
+
+        .dropnav a:link {
+            color: red;
+            text-decoration: none;
+        }
+
+        .dropnav a:hover {
+            color: #8f8972;
+        }
+
+        .menu {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        .menu li {
+            float: right;
+        }
+
+        .menu li a {
+            display: block;
+            color: white;
+            text-align: right;
+            padding: 10px 16px;
+            text-decoration: none;
+        }
+
+        .menu li a:hover {
+            background-color: #111;
+        }
+
+        .carousel-img {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+            text-align: center;
+
+        }
+
+        .slider {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+
+        }
+
+        .maskapai {
+            width: 75%;
+            height: 120px;
+            object-fit: cover;
+            text-align: center;
+            margin-bottom: 12px;
+        }
+
+        .pembayaran {
+            width: 75%;
+            height: 150px;
+            object-fit: cover;
+            text-align: center;
+            margin-bottom: 12px;
+        }
+
+        .paket {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+            text-align: center;
+        }
+
+        .pagination {
+            display: inline-block;
+        }
+
+        .pagination a {
+            color: black;
+            float: left;
+            padding: 8px 16px;
+            text-decoration: none;
+            border: 1px solid #ddd;
+        }
+
+        .pagination a.active {
+            background-color: #4CAF50;
+            color: white;
+            border: 1px solid #4CAF50;
+        }
+
+        .pagination a:hover:not(.active) {
+            background-color: #ddd;
+        }
+
+        .pagination a:first-child {
+            border-top-left-radius: 5px;
+            border-bottom-left-radius: 5px;
+        }
+
+        .pagination a:last-child {
+            border-top-right-radius: 5px;
+            border-bottom-right-radius: 5px;
+        }
+
+        .open-button {
+            background-color: #555;
+            color: white;
+            position: fixed;
+            bottom: 23px;
+            right: 28px;
+            width: 200px;
+            height: 35px;
+            border-radius: 10px;
+            opacity: 0.8;
+        }
+
+        /* The popup chat - hidden by default */
+        .chat-popup {
+            display: none;
+            position: fixed;
+            bottom: 0;
+            right: 15px;
+            border: 3px solid #f1f1f1;
+            z-index: 9;
+        }
+
+        /* Add styles to the form container */
+        .form-container {
+            max-width: 300px;
+            padding: 10px;
+            background-color: white;
+        }
+
+        /* Full-width textarea */
+        .form-container textarea {
+            width: 100%;
+            padding: 15px;
+            margin: 5px 0 22px 0;
+            border: none;
+            background: #f1f1f1;
+            resize: none;
+            min-height: 200px;
+        }
+
+        /* When the textarea gets focus, do something */
+        .form-container textarea:focus {
+            background-color: #ddd;
+            outline: none;
+        }
+
+        /* Set a style for the submit/send button */
+        .form-container {
+            background-color: gray;
+            color: white;
+            padding: 16px 20px;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+            margin-bottom: 10px;
+            opacity: 0.8;
+        }
+
+        p {
+            border-bottom: 3px solid black;
+            text-align: center;
+        }
+    
